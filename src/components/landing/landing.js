@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbar from './navbar/navbar'
 
 const landing = () => {
     return (
         <div>
-            <h3>I am the landing</h3>
+            <Navbar/>
         </div>
     )
 }
