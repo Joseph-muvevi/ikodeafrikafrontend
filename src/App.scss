@@ -1,21 +1,47 @@
-// definations
-$primary-color: #f8bbd0 !default;
-$secondary-color: #f8bbd0 !default;
-$accent-color: #6a1b9a !default;
-$background-color: #0F1A43;
-// $button-sm
+@import "./components/scss/variables/variables";
+@import "./components/scss/typography/typography";
+
 * {    
-	margin: 0 !important;
-	padding: 0 !important;
+	margin: 0;
+	padding: 0 ;
  }
 .App {
 	text-align: center;
 	background-color: $background-color;
 	min-height: 100vh;
-	margin: 0px
+	margin: 0px;
 }
 
-// @if $dark-theme {
-		// $primary-color: darken($primary-color, 60%);
-		// $accent-color: lighten($accent-color, 60%);
-// }
+input{
+	width: $input-medium-width;
+	padding: 10px;
+	font-family: $font-paragraph;
+	border-radius: $border-radius;
+	border-width: $border-width;
+	border-color: $border-color;
+	font-size: $font-button-size-big-screen;
+}
+
+input::placeholder{
+	font-size: $font-placeholder-size-big-screen;
+	font-family: $font-paragraph;
+
+}
+
+button{
+	padding: 5px;
+	font-family: Monda;
+	border-radius: $border-radius;
+	font-size: $font-button-size-big-screen;
+	width: $button-big-screen;
+	color: white;
+	background-color: $primary-color;
+	border-width: $border-width;
+	border-color: $border-color;
+}
+
+@media screen and (max-width: 900px){
+	input{
+		width: $input-small-width;
+	}
+}

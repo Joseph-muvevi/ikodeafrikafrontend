@@ -1,4 +1,4 @@
-import './App.scss';
+import './App.css';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
 import landing from './components/landing/landing';
 import dashboard from './components/dashboard/dashboard';

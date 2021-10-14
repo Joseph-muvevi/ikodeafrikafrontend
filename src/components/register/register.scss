@@ -1,0 +1,64 @@
+@import "../scss/variables/_variables";
+@import "../scss/typography/_typography";
+
+// ============REGISTER===============
+.register{
+	height: 100vh;
+	max-width: 100vw;
+	min-width: 99.999vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: $secondary-background-color;
+}
+
+.register-left{
+	background-image: url(../../assets/desktop2.jfif);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 49vw;
+	display : flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.register-left-content{
+	padding: 10px;
+	color: whitesmoke;
+	display : flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	background-color: rgba(0, 0, 0, 0.459);
+	font-family: $default-font;
+	min-height: 40vh;
+}
+
+.register-right{
+	width: 50.79vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.register-form{
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-areas:     
+		"A A A A   A A B B   B B B B"
+		"C C C C   C C D D   D B D D"
+		"E E E E   E E F F   F F F F"
+		"G G G G   G G H H   H H H H"
+		"I I I I   I I I I   I I I I";
+}
+
+.form-group-A{
+	grid-area: A;
+	display: flex;
+	flex-direction: column;
+}

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  background-color: #e6eeff;
+  min-height: 100vh;
+  margin: 0px;
+}
+
+input {
+  width: 400px;
+  padding: 10px;
+  font-family: Monda;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: black;
+  font-size: 18px;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 18px;
+  font-family: Monda;
+}
+
+input:-ms-input-placeholder {
+  font-size: 18px;
+  font-family: Monda;
+}
+
+input::-ms-input-placeholder {
+  font-size: 18px;
+  font-family: Monda;
+}
+
+input::placeholder {
+  font-size: 18px;
+  font-family: Monda;
+}
+
+button {
+  padding: 5px;
+  font-family: Monda;
+  border-radius: 10px;
+  font-size: 18px;
+  width: 200px;
+  color: white;
+  background-color: #2C51D3;
+  border-width: 1px;
+  border-color: black;
+}
+
+@media screen and (max-width: 900px) {
+  input {
+    width: 80vw;
+  }
+}
+/*# sourceMappingURL=App.css.map */

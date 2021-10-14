@@ -1,0 +1,293 @@
+.banner {
+  height: 92vh;
+}
+
+.banner-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner-content-left {
+  width: 50vw;
+  background-color: #a8cbff;
+  height: 92vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.banner-left-h3 {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+.banner-left-p {
+  font-size: 18px;
+  font-family: Monda;
+}
+
+.banner-content-right {
+  width: 50vw;
+  height: 92vh;
+}
+
+.banner-content-right {
+  background-image: url(../../assets/desktop1.jfif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-left-input-group {
+  width: 40vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 8vw;
+}
+
+.welcome {
+  height: 100vh;
+}
+
+.welcome-content {
+  height: 100%;
+  width: 90vw;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.welcome-left {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2C51D3), to(#0714439f)), url(../../assets/desktop3.jpg);
+  background-image: linear-gradient(to bottom, #2C51D3, #0714439f), url(../../assets/desktop3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 45vw;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.welcome-left-h3-main {
+  font-family: Monda;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.welcome-left-h3 {
+  font-family: Monda;
+}
+
+.welcome-left-p {
+  font-family: Monda;
+}
+
+.welcome-right {
+  width: 45vw;
+  height: 100%;
+}
+
+.welcome-right-cards {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.welcome-right-cards-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-bottom: none;
+}
+
+.welcome-card-item {
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 5px 7px #313131;
+          box-shadow: 2px 5px 7px #313131;
+  padding: 10px;
+  height: 40vh;
+  width: 300px;
+  margin-left: 50px;
+  font-family: Monda;
+}
+
+.welcome-card-item-dropped {
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 5px 7px #313131;
+          box-shadow: 2px 5px 7px #313131;
+  padding: 10px;
+  height: 40vh;
+  margin-top: 50px;
+  width: 300px;
+  margin-left: 50px;
+  font-family: Monda;
+}
+
+.welcome-fontawesome {
+  font-size: 50px;
+  color: #2C51D3;
+}
+
+.welcome-left-h3 {
+  font-size: 25px;
+  color: #2C51D3;
+}
+
+.landing-courses {
+  min-width: 99.9999vh;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #a8cbff;
+}
+
+.landing-courses-top {
+  margin-top: 5vh;
+}
+
+.landing-courses-top-h3 {
+  font-size: 40px;
+  color: #2C51D3;
+  font-family: Monda;
+}
+
+.landing-courses-top-p {
+  margin-top: 10px;
+  font-size: 23px;
+  color: #2C51D3;
+  font-family: Monda;
+  margin-bottom: 20px;
+}
+
+.landing-hr {
+  width: 90vw;
+  color: #2C51D3;
+  margin: auto;
+}
+
+.landing-courses-cards {
+  display: -ms-grid;
+  display: grid;
+  width: 90vw;
+  min-height: 85vh;
+  margin: auto;
+  grid-gap: 10px;
+  margin-top: 20px;
+  -ms-grid-columns: [col1-start] 29vw [col2-start] 29vw [col3-start] 29vw [col3-end];
+      grid-template-columns: [col1-start] 29vw [col2-start] 29vw [col3-start] 29vw [col3-end];
+  -ms-grid-rows: [row1-start] auto [row2-start] auto [row2-end];
+      grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
+}
+
+.landing-courses-card-A {
+  -webkit-box-shadow: 2px 5px 7px #313131;
+          box-shadow: 2px 5px 7px #313131;
+  border-radius: 10px;
+  background-color: yellow;
+  grid-column: col1-start / col3-start;
+  grid-row: row1-start;
+}
+
+.landing-courses-card-B {
+  -webkit-box-shadow: 2px 5px 7px #313131;
+          box-shadow: 2px 5px 7px #313131;
+  border-radius: 10px;
+  background-color: red;
+  grid-column: col3-start;
+  grid-row: row1-start / row2-end;
+}
+
+.landing-courses-card-C {
+  -webkit-box-shadow: 2px 5px 7px #313131;
+          box-shadow: 2px 5px 7px #313131;
+  border-radius: 10px;
+  background-color: green;
+  grid-column: col1-start;
+  grid-row: row2-start;
+}
+
+.landing-courses-card-D {
+  -webkit-box-shadow: 2px 5px 7px #313131;
+          box-shadow: 2px 5px 7px #313131;
+  border-radius: 10px;
+  background-color: blue;
+  grid-column: col2-start;
+  grid-row: row2-start;
+}
+/*# sourceMappingURL=landing.css.map */
