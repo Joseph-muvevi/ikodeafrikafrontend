@@ -25,7 +25,23 @@ input{
 input::placeholder{
 	font-size: $font-placeholder-size-big-screen;
 	font-family: $font-paragraph;
+	
+}
 
+textarea{
+	width: $input-medium-width;
+	padding: 10px;
+	font-family: $font-paragraph;
+	border-radius: $border-radius;
+	border-width: $border-width;
+	border-color: $border-color;
+	font-size: $font-button-size-big-screen;
+}
+
+textarea::placeholder{
+	font-size: $font-placeholder-size-big-screen;
+	font-family: $font-paragraph;
+	
 }
 
 button{
@@ -40,8 +56,37 @@ button{
 	border-color: $border-color;
 }
 
+label{
+	font-size: 20px;
+	font-family: $default-font;
+	text-transform: capitalize;
+	margin-left: 5px;
+}
+
+.form-bottom{
+	margin-top: 30px;
+	min-width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.font-awesome-button{
+	color: white;
+	margin-right: 30px;
+}
+
+.input-alt-text{
+	color: $primary-color;
+	font-size: $font-button-size-medium-screen;
+	font-family: $default-font;
+}
+
 @media screen and (max-width: 900px){
 	input{
 		width: $input-small-width;
+	}
+	label{
+		margin-left: 0px;
 	}
 }

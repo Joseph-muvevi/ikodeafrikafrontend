@@ -1,0 +1,22 @@
+.normal-user-top-nav {
+  width: 81vw;
+  height: 10vh;
+  border-bottom: solid;
+  border-bottom-color: #071443;
+}
+
+.normal-user-top-nav-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 2px;
+}
+/*# sourceMappingURL=normalusertopnav.css.map */

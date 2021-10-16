@@ -1,0 +1,59 @@
+@import "../../../scss/variables/variables";
+@import "../../../scss/typography/_typography";
+
+// =========NORMAL USER NAV============
+.normal-user-side-nav{
+	background-color: $primary-color;
+	font-family: $default-font;
+	width: 18vw;
+	color: whitesmoke;
+	height: 100vh;
+	max-height: 100.0000111vh;
+	position: fixed;
+}
+
+.normal-user-side-nav-content{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: center;
+	width: 18vw;
+}
+
+.normal-user-side-nav-content-top{
+	width: 90%;
+	margin-left: 5%;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	height: 10vh
+}
+
+.normal-user-side-nav-img{
+	margin-right: 2vw;
+	width: 70px;
+	height: 70px;
+	border-radius: $border-radius;
+}
+
+.side-nav-hr{
+	color: $secondary-color;
+	width: 100%;
+	font-weight: 800;
+}
+
+.normal-user-side-nav-content-middle-ul{
+	width: 16.2vw;
+	margin-left: 1.8vw;
+}
+
+.normal-user-side-nav-content-middle-li{
+	width: 100%;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	height: 7.5vh;
+	text-transform: uppercase;
+	font-size: $font-nav-items-size-big-screen;
+}

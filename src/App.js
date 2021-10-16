@@ -12,9 +12,9 @@ function App() {
 			<Router>
 				<Switch>
 					<Route path="/" exact component={landing}/>
-					<Route path="/dashboard" component={dashboard}/>
 					<Route path="/register" component={register}/>
 					<Route path="/login" component={login}/>
+					<Route path="/dashboard" component={dashboard}/>
 					<Route component={notfound}/>
 				</Switch>
 			</Router>

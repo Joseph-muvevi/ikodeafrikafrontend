@@ -1,0 +1,137 @@
+@import "../../../scss/variables/_variables.scss";
+@import "../../../scss/typography/typography";
+
+// ======Social media======
+.user-social-media{
+	display: grid;
+	
+	grid-template-areas: 
+    "A A A A   A A A A   A A A A"
+    "B B B B   C C C C   C C C C"
+    "B B B B   C C C C   C C C C";
+}
+
+.social-media-grid-banner{
+	grid-area: A;
+}
+
+.social-media-grid-about{
+	grid-area: B;
+}
+
+.social-media-grid-content{
+	grid-area: C;
+}
+
+// =========SOCIAL MEDIA BANNER======
+.social-media-banner{
+	width: 80.99999vw;
+	max-width: 82vh;
+	min-height: 50vh
+}
+
+.social-media-banner-top{
+	height: 40vh;
+}
+
+.social-media-banner-background-image{
+	width: 80.99999vw !important;
+	height: 100%
+}
+
+.social-media-banner-icon-image{
+	width: 200px;
+	height: 200px;
+	border-radius: $border-radius;
+}
+
+.social-media-image{
+	height: 10vh;
+}
+
+.social-media-banner-bottom{
+	width: 66vw !important;
+	height: 100%;
+	display: flex;
+	justify-content: left;
+	align-items: baseline;
+	margin-top: -18vh;
+	margin-left: 10vw;
+}
+
+
+.social-media-sub-navs{
+	margin-left: 3vw;
+	display: flex;
+	align-items: center;
+}
+
+.social-media-sub-navs-item{
+	margin-right: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: $default-font;
+}
+
+.social-media-banner-icons{
+	font-size: 30px;
+	color: $primary-color;
+}
+
+// =======SOCIAL MEDIA ABOUT=================
+.normal-social-media-about{
+	width: 25vw;
+	height: 100%;
+	text-align: justify;
+	font-family: $default-font;
+	border-right: 2px solid $primary-color
+}
+
+.normal-social-media-about-content{
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 5vh;
+
+}
+
+.normal-social-media-about-top-h3{
+	font-size: $font-nav-header-size-big-screen;
+	margin-bottom: 10px;
+}
+
+.normal-social-media-about-top-p{
+	font-size: $font-paragraph-size-medium-screen;
+}
+
+.alt-hr{
+	width: 80.99999vw
+}
+
+// =============SOCIAL MEDIA CONTENT=========
+.normal-social-media-content{
+	width: 56vw;
+}
+
+// ==============Add post===========
+.add-post{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.add-post-content{
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	margin-top: 5vh;
+	width: 100%;
+	box-shadow: 2px 5px 5px rgb(204, 204, 204);
+	padding: 10px;
+}
+
+.add-post-icon{
+	width: 100px;
+	border-radius: $border-radius;
+	height: 100px;
+}

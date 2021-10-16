@@ -1,0 +1,47 @@
+@import "../scss/variables/_variables";
+@import "../scss/typography/_typography";
+
+// ============LOGIN===============
+.login{
+	height: 100vh;
+	max-width: 100vw;
+	min-width: 99.999vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: $secondary-background-color;
+}
+
+.login-left{
+	background-image: url(../../assets/desktop2.jfif);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 49vw;
+	display : flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-left-content{
+	padding: 10px;
+	color: whitesmoke;
+	display : flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	background-color: rgba(0, 0, 0, 0.459);
+	font-family: $default-font;
+	min-height: 40vh;
+}
+
+.login-right{
+	width: 50.79vw;
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+    align-items: right;
+	justify-content: center;
+}

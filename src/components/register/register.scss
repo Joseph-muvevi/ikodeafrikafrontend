@@ -46,19 +46,87 @@
 }
 
 .register-form{
-	width: 80%;
+	width: 98%;
 	margin: auto;
 	display: grid;
-	grid-template-areas:     
+	grid-template-areas:
 		"A A A A   A A B B   B B B B"
-		"C C C C   C C D D   D B D D"
+		"C C C C   C C D D   D D D D"
 		"E E E E   E E F F   F F F F"
 		"G G G G   G G H H   H H H H"
-		"I I I I   I I I I   I I I I";
+		"I I I I   I I J J   J J J J";
 }
 
 .form-group-A{
 	grid-area: A;
 	display: flex;
 	flex-direction: column;
+	text-align: left;
+}
+
+.form-group-B{
+	grid-area: B;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.form-group-C{
+	grid-area: C;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.form-group-D{
+	grid-area: D;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.form-group-E{
+	grid-area: I;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.form-group-F{
+	grid-area: F;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.form-group-G{
+	grid-area: G;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.form-group-H{
+	grid-area: H;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.form-group-I{
+	grid-area: E;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.form-group-J{
+	grid-area: J;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.form-small-input{
+	width: $input-double-width !important;
 }

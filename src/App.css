@@ -17,26 +17,56 @@ input {
   border-radius: 10px;
   border-width: 1px;
   border-color: black;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 input::-webkit-input-placeholder {
-  font-size: 18px;
+  font-size: 16px;
   font-family: Monda;
 }
 
 input:-ms-input-placeholder {
-  font-size: 18px;
+  font-size: 16px;
   font-family: Monda;
 }
 
 input::-ms-input-placeholder {
-  font-size: 18px;
+  font-size: 16px;
   font-family: Monda;
 }
 
 input::placeholder {
-  font-size: 18px;
+  font-size: 16px;
+  font-family: Monda;
+}
+
+textarea {
+  width: 400px;
+  padding: 10px;
+  font-family: Monda;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: black;
+  font-size: 16px;
+}
+
+textarea::-webkit-input-placeholder {
+  font-size: 16px;
+  font-family: Monda;
+}
+
+textarea:-ms-input-placeholder {
+  font-size: 16px;
+  font-family: Monda;
+}
+
+textarea::-ms-input-placeholder {
+  font-size: 16px;
+  font-family: Monda;
+}
+
+textarea::placeholder {
+  font-size: 16px;
   font-family: Monda;
 }
 
@@ -44,7 +74,7 @@ button {
   padding: 5px;
   font-family: Monda;
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 16px;
   width: 200px;
   color: white;
   background-color: #2C51D3;
@@ -52,9 +82,44 @@ button {
   border-color: black;
 }
 
+label {
+  font-size: 20px;
+  font-family: Monda;
+  text-transform: capitalize;
+  margin-left: 5px;
+}
+
+.form-bottom {
+  margin-top: 30px;
+  min-width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.font-awesome-button {
+  color: white;
+  margin-right: 30px;
+}
+
+.input-alt-text {
+  color: #2C51D3;
+  font-size: 14px;
+  font-family: Monda;
+}
+
 @media screen and (max-width: 900px) {
   input {
     width: 80vw;
+  }
+  label {
+    margin-left: 0px;
   }
 }
 /*# sourceMappingURL=App.css.map */

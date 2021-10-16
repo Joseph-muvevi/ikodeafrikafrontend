@@ -136,14 +136,29 @@ const register = () => {
 							required
 						/>
 					</div>
+					<div className="form-group-J">
+						<label className="form-label">
+							Terms & condition 
+						</label>
+						<input 
+							className="form-small-input"
+							type="checkbox"
+							required
+						/>
+					</div>
 				</form>
+				<div className="form-bottom">
 					<button type="submit">
 						<FontAwesomeIcon
 							icon={faPaperPlane}
-							className="font-awesome-form"
+							className="font-awesome-button"
 							/>
 						Submit
 					</button>
+					<p className="input-alt-text">
+						Already a member?
+					</p>
+				</div>
 			</div>
 		</div>
 	)
