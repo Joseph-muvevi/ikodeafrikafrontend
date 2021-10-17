@@ -11,6 +11,7 @@ $secondary-background-color: #a8cbff;
 $border-radius: 10px;
 $border-width: 1px;
 $border-color: black;
+$border : solid $primary-color 2px;
 
 // 
 $card-boxshadow: 2px 5px 7px rgb(49, 49, 49);
@@ -36,4 +37,7 @@ $button-small-screen: 150px;
 
 // social media
 $sm-input-width: 400px;
-$sm-textarea-width: 400px
+$sm-textarea-width: 400px;
+
+// box shadow
+$box-shadow: 2px 5px 10pc rgb(90, 89, 89)

@@ -1,1 +1,92 @@
-/* No CSS *//*# sourceMappingURL=studenttasks.css.map */
+.student-task-all-todos {
+  width: 380px;
+  border-radius: 10px;
+  border: solid #2C51D3 2px;
+  min-height: 300px;
+}
+
+.student-task-all-todos-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: justify;
+}
+
+.student-task-all-todos-topic {
+  width: 100%;
+  height: 8vh;
+  background-color: #a8cbff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.student-task-all-todos-h3 {
+  text-transform: uppercase;
+  font-family: Monda;
+}
+
+.student-task-all-todos-main {
+  width: 95%;
+  margin: 10px auto;
+}
+
+.student-task-all-todos-li {
+  list-style: none;
+}
+
+.student-task-card {
+  width: 90%;
+  min-height: 250px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: Monda;
+}
+
+.student-task-cards-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.student-task-cards-priority {
+  padding: 2px 10px;
+  border-radius: 10px;
+  background-color: #00da00;
+}
+
+.student-task-cards-header {
+  color: #2C51D3;
+  min-height: 50px;
+  font-size: 18px;
+}
+
+.student-task-cards-info {
+  min-height: 100px;
+}
+
+.student-task-cards-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.student-task-cards-bottom-icon {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.student-task-cards-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  margin-right: 10px;
+}/*# sourceMappingURL=studenttasks.css.map */

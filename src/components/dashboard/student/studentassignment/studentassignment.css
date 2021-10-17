@@ -1,1 +1,147 @@
-/* No CSS *//*# sourceMappingURL=studentassignment.css.map */
+.student-assignment {
+  margin-left: 18vw;
+  width: 82vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.student-assignment-content {
+  width: 76vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: justify;
+}
+
+.student-assignment-h3 {
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: Monda;
+  color: #2C51D3;
+}
+
+.student-assignment-p-and-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 9vh;
+  font-family: Monda;
+  font-size: 20px;
+}
+
+.student-assignment-p {
+  width: 200px;
+  background-color: #2C51D3;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.create-assignment-p {
+  color: whitesmoke;
+}
+
+.font-awesome-icon-add-assignment {
+  box-shadow: 2px 5px 10pc #5a5959;
+  color: whitesmoke;
+}
+
+.student-assignment-filter {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.student-assignment-filter-all {
+  background-color: #2C51D3;
+  padding: 5px 10px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 7px #f0f5ff;
+  margin-right: 15px;
+}
+
+.student-assignment-filter-completed {
+  background-color: #00da00;
+  padding: 5px 10px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 7px #f0f5ff;
+  margin-right: 15px;
+}
+
+.student-assignment-filter-ongoing {
+  background-color: #ff2424;
+  padding: 5px 10px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 7px #f0f5ff;
+}
+
+.student-assignment-ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.student-assignment-list {
+  list-style: none;
+}
+
+.student-assignment-card {
+  width: 90%;
+  min-height: 250px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: Monda;
+}
+
+.student-assignment-cards-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.student-assignment-cards-priority {
+  padding: 2px 10px;
+  border-radius: 10px;
+  background-color: #00da00;
+}
+
+.student-assignment-cards-header {
+  color: #2C51D3;
+  min-height: 50px;
+  font-size: 18px;
+}
+
+.student-assignment-cards-info {
+  min-height: 100px;
+}
+
+.student-assignment-cards-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.student-assignment-cards-bottom-icon {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.student-assignment-cards-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  margin-right: 10px;
+}/*# sourceMappingURL=studentassignment.css.map */

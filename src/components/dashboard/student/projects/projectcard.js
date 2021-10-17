@@ -7,9 +7,9 @@ const ProjectCard = () => {
 			<h3 className="student-project-card-header">
 				Lesson about quantum mechanics and quantum entangement
 			</h3>
-			<p className="student-project-card-status-completed">
+			<h5 className="student-project-card-status-completed">
 				completed
-			</p>
+			</h5>
 			<p className="student-project-card-p">
 				Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 				Lorem Ipsum has been the industry's standard dummy text ever since the

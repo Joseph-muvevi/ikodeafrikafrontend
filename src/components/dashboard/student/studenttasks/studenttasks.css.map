@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "studenttasks.scss"
-    ],
-    "names": [],
-    "file": "studenttasks.css"
-}
+{"version":3,"sources":["studenttasks.scss","../../../scss/variables/_variables.scss","../../../scss/typography/_typography.scss"],"names":[],"mappings":"AAIA;EACC,YAAA;EAGA,mBCEe;EDDf,yBCIS;EDHT,iBAAA;AALD;;AAQA;EAGC,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,uBAAA;EACA,mBAAA;AAPD;;AAUA;EACC,WAAA;EACA,WAAA;EACA,yBCpB4B;EDqB5B,4BCjBe;EDkBf,6BClBe;EDmBf,aAAA;EACA,uBAAA;EACA,mBAAA;AAPD;;AAUA;EACC,yBAAA;EACA,kBElCc;AF2Bf;;AAUA;EACC,UAAA;EACA,iBAAA;AAPD;;AAUA;EACC,gBAAA;AAPD;;AAUA;EACC,UAAA;EACA,iBAAA;EACA,iBAAA;EACA,uBAAA;EACA,mBC3Ce;ED4Cf,aAAA;EACA,kBErDc;AF8Cf;;AAUA;EACC,aAAA;EACA,8BAAA;EACA,mBAAA;EACA,YAAA;AAPD;;AAUA;EACC,iBAAA;EACA,mBCzDe;ED0Df,yBCjEe;AD0DhB;;AAUA;EACC,cCvEe;EDwEf,gBAAA;EACA,eAAA;AAPD;;AAUA;EACC,iBAAA;AAPD;;AAUA;EACC,aAAA;EACA,8BAAA;EACA,mBAAA;EACA,YAAA;AAPD;;AAUA;EACC,aAAA;EACA,qBAAA;EACA,mBAAA;AAPD;;AAUA;EACC,WAAA;EACA,YAAA;EACA,mBCvFe;EDwFf,kBAAA;AAPD","file":"studenttasks.css"}

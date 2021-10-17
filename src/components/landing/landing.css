@@ -208,7 +208,7 @@
 .landing-courses-card-C {
   box-shadow: 2px 5px 7px #313131;
   border-radius: 10px;
-  background-color: green;
+  background-color: white;
   grid-column: col1-start;
   grid-row: row2-start;
 }

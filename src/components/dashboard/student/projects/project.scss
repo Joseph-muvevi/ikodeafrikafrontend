@@ -103,28 +103,32 @@
 	border-radius: $border-radius;
 	box-shadow: 2px 5px 10px rgb(204, 204, 204);
 	font-family: $default-font;
-	color: $primary-color;
 	margin-bottom: 30px;
 	padding: 10px;
+	background-color: white;
 }
 
-.student-course-card-header{
+.student-project-card-header{
+	color: $primary-color;
 	width: 95%;
 	margin: 10px auto;
+	min-height: 12.5vh;
 }
+
 
 
 .student-project-card-status-completed{
-	background-color: $success-color;
-	padding: 5px 10px;
+	padding: 2px 10px;
+	min-width: 100px;
+	max-width: fit-content;
 	border-radius: $border-radius;
-	box-shadow: 2px 5px 7px rgb(240, 245, 255);
-	margin-right: 15px
+	background-color: $success-color;
 }
 
 .student-project-card-p{
 	font-size: $font-paragraph-size-medium-screen;
 	font-family: $font-header-landing;
 	color: black !important;
-	margin-top: 5px;
+	margin-top: 10px;
+	min-height: 30vh;
 }

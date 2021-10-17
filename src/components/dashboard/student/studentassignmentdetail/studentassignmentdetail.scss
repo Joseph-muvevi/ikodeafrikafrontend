@@ -1,0 +1,204 @@
+@import "../../../scss/typography/typography";
+@import "../../../scss/variables/variables";
+
+
+// ========STUDENT ASSIGNMENT DETAIL===========
+.student-assignment-detail{
+	margin-left: 18vw;
+	width: 82vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.student-assignment-detail-content{
+	width: 76vw;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	text-align: justify;
+}
+
+.student-assignment-detail-h3{
+	margin-top: 20px;
+	font-size: $font-header-size-big-screen;
+	font-family: $default-font;
+	color: $primary-color;
+}
+
+.student-assignment-detail-p-and-filters{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 9vh;
+	font-family: $default-font;
+	font-size: $font-nav-header-size-medium-screen
+}
+
+
+.student-assignment-detail-p-and-filters{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 9vh;
+	font-family: $default-font;
+	font-size: $font-nav-header-size-medium-screen
+}
+
+.student-assignment-detail-p{
+	width: 200px;
+	background-color: $primary-color;
+	border-radius: $border-radius;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 10px;
+}
+
+.create-assignment-detail-p{
+	color: whitesmoke;
+}
+
+.font-awesome-icon-add-assignment-detail{
+	box-shadow: 2px 5px 10pc rgb(90, 89, 89);
+	color: whitesmoke;
+}
+
+.student-assignment-detail-filter{
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+.student-assignment-detail-filter-all{
+	background-color: $primary-color;
+	padding: 5px 10px;
+	border-radius: $border-radius;
+	box-shadow: 2px 5px 7px rgb(240, 245, 255);
+	margin-right: 15px
+}
+
+.student-assignment-detail-filter-completed{
+	background-color: $success-color;
+	padding: 5px 10px;
+	border-radius: $border-radius;
+	box-shadow: 2px 5px 7px rgb(240, 245, 255);
+	margin-right: 15px
+}
+
+.student-assignment-detail-filter-ongoing{
+	background-color: $error-color;
+	padding: 5px 10px;
+	border-radius: $border-radius;
+	box-shadow: 2px 5px 7px rgb(240, 245, 255);
+}
+
+
+.student-assignment-detail-ul{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.student-assignment-detail-list{
+	list-style: none;
+}
+
+.student-assignment-detail-card{
+	width: 76vw;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 50vh;
+	border-radius: $border-radius;
+	box-shadow: 2px 5px 10px rgb(204, 204, 204);
+	font-family: $default-font;
+	margin-bottom: 30px;
+	padding: 10px;
+	background-color: white;
+}
+
+.student-assignment-detail-card-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	text-align: justify;
+}
+
+.student-assignment-detail-card-top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 10vh;
+}
+
+.student-assignment-detail-card-top-inputs{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.card-checkbox{
+	margin-right: 10px;
+	width: fit-content !important;
+}
+
+.student-assignment-detail-card-header-h4{
+	color: $primary-color;
+	font-size: 24px;
+}
+
+.student-assignment-detail-card-header-info{
+	width: 30vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.student-assignment-detail-card-header-info-p{
+	color: $font-alt;
+	text-transform: uppercase;
+}
+
+.student-assignment-detail-card-header-info-bottom-content{
+	display: flex;
+	justify-content: left;
+	text-align: left;
+	align-items: center;
+}
+
+.student-assignment-detail-card-header-img{
+	width: 30px;
+	height: 30px;
+	border-radius: $border-radius;
+	margin-right: 20px;
+}
+
+
+.student-assignment-detail-card-header-fontawesome{
+	margin-right: 20px;
+}
+
+.student-assignment-detail-card-middle{
+	min-height: 20vh;
+}
+
+.student-assignment-detail-card-middle-overview{
+	margin-top: 20px;
+}
+
+.mapped-checkbox-group{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.mapped-checkbox-group-p{
+	margin-right: 10px;
+}

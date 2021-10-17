@@ -56,13 +56,22 @@ const StudentSidenav = () => {
 								project
 							</p>
 						</NavLink>
-						<NavLink to="/my-assignmen" className="student-side-nav-middle-li">
+						<NavLink to="/my-assignment" className="student-side-nav-middle-li">
 							<FontAwesomeIcon
 								icon={faChartPie}
 								className="student-side-nav-fontawesome-icon"
 							/>
 							<p className ="student-side-nav-p">
 								assignments
+							</p>
+						</NavLink>
+						<NavLink to="/my-assignment-detail" className="student-side-nav-middle-li-nested">
+							<FontAwesomeIcon
+								icon={faChartPie}
+								className="student-side-nav-fontawesome-icon"
+							/>
+							<p className ="student-side-nav-p">
+								assignments/detail
 							</p>
 						</NavLink>
 						<NavLink to="/my-task" className="student-side-nav-middle-li">

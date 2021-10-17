@@ -39,7 +39,7 @@ const StudentProject = () => {
 					{
 						[1,2,3,4,5,6,7,8,9,10].map(
 							() => (
-								<li className="student-course-list">
+								<li className="student-project-list">
 									<ProjectCard/>
 								</li>
 							)

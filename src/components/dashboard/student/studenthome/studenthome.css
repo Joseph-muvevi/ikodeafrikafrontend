@@ -71,7 +71,7 @@
 
 .student-two-cards-left {
   width: 63.4%;
-  background-color: green;
+  background-color: white;
   height: 45vh;
   border-radius: 10px;
   box-shadow: 2px 5px 7px #cccccc;
@@ -110,7 +110,7 @@
 }
 
 .student-home-table-content {
-  background-color: green;
+  background-color: white;
   border-radius: 10px;
   box-shadow: 2px 5px 7px #cccccc;
   height: 50vh;

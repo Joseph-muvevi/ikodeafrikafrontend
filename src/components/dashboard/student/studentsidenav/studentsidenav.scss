@@ -81,6 +81,22 @@
 	color: aliceblue;
 }
 
+.student-side-nav-middle-li-nested{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	height: 48px;
+	text-decoration: none;
+	color: black;
+	padding-left: 2vw;
+}
+
+
+.student-side-nav-middle-li-nested:hover{
+	cursor: pointer;
+	background-color: $primary-color;
+	color: aliceblue;
+}
 .student-side-nav-fontawesome-icon{
 	border-radius: $border-radius;
 	margin-right: 20px;

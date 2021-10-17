@@ -1,2 +1,151 @@
 @import "../../../scss/typography/_typography.scss";
 @import "../../../scss/variables/variables";
+
+// ==========STUDENT ASSIGNMENT============
+.student-assignment{
+	margin-left: 18vw;
+	width: 82vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.student-assignment-content{
+	width: 76vw;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	text-align: justify;
+}
+
+.student-assignment-h3{
+	margin-top: 20px;
+	font-size: $font-header-size-big-screen;
+	font-family: $default-font;
+	color: $primary-color;
+}
+
+.student-assignment-p-and-filters{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 9vh;
+	font-family: $default-font;
+	font-size: $font-nav-header-size-medium-screen
+}
+
+.student-assignment-p{
+	width: 200px;
+	background-color: $primary-color;
+	border-radius: $border-radius;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 10px;
+}
+
+.create-assignment-p{
+	color: whitesmoke;
+}
+
+.font-awesome-icon-add-assignment{
+	box-shadow: 2px 5px 10pc rgb(90, 89, 89);
+	color: whitesmoke;
+}
+
+.student-assignment-filter{
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+.student-assignment-filter-all{
+	background-color: $primary-color;
+	padding: 5px 10px;
+	border-radius: $border-radius;
+	box-shadow: 2px 5px 7px rgb(240, 245, 255);
+	margin-right: 15px
+}
+
+.student-assignment-filter-completed{
+	background-color: $success-color;
+	padding: 5px 10px;
+	border-radius: $border-radius;
+	box-shadow: 2px 5px 7px rgb(240, 245, 255);
+	margin-right: 15px
+}
+
+.student-assignment-filter-ongoing{
+	background-color: $error-color;
+	padding: 5px 10px;
+	border-radius: $border-radius;
+	box-shadow: 2px 5px 7px rgb(240, 245, 255);
+}
+
+.student-assignment-ul{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.student-assignment-list{
+	list-style: none;
+}
+
+.student-assignment-card{
+	width: 90%;
+	min-height: 250px;
+	margin: 20px auto;
+	background-color: white;
+	border-radius: $border-radius;
+	padding: 10px;
+	font-family: $default-font;
+}
+
+.student-assignment-cards-top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+}
+
+.student-assignment-cards-priority{
+	padding: 2px 10px;
+	border-radius: $border-radius;
+	background-color: $success-color;
+}
+
+.student-assignment-cards-header{
+	color: $primary-color;
+	min-height: 50px;
+	font-size: 18px;
+}
+
+.student-assignment-cards-info{
+	min-height: 100px;
+}
+
+.student-assignment-cards-bottom{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+}
+
+.student-assignment-cards-bottom-icon{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.student-assignment-cards-icon{
+	width: 30px;
+	height: 30px;
+	border-radius: $border-radius;
+	margin-right: 10px;
+}
