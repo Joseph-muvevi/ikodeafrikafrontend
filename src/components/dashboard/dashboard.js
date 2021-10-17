@@ -10,9 +10,9 @@ const dashboard = () => {
 		<div className="dashboard">
 			<Router>
 				<Switch>
-					<Route path="/" extact component={Normaluser}/>
+					<Route path="/user" extact component={Normaluser}/>
 					<Route path="/tuitor" component={Tuitor}/>
-					<Route path="/student" component={Student}/>
+					<Route path="/" component={Student}/>
 					<Route component={notfound}/>
 				</Switch>
 			</Router>

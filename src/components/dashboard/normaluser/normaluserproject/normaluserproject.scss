@@ -1,0 +1,65 @@
+@import "../../../scss/variables/variables";
+@import "../../../scss/typography/_typography.scss";
+
+//==========NORMAL USER PROJECT
+.normal-user-project{
+	width: 81vw
+}
+.normal-user-project-content{
+	width: 95%;
+	margin: auto;
+}
+
+// ========PROJECT CARDS
+.all-user-project-cards {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+
+
+// ========PROJECT CARD
+.normal-user-project-card-item{
+	border-radius: $border-radius;
+	box-shadow: 2px 5px 20px #ccc;
+	height: 30vh;
+	width: 350px;
+	margin: 20px 20px;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.normal-user-project-card-item-top{
+	height: 15%;
+	width: 100%;
+}
+
+.normal-user-project-card-item-top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 95%;
+	margin: auto;
+}
+
+.normal-user-project-card-item-middle{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	width: 95%;
+	margin: auto;
+	text-align: justify;
+}
+
+
+.normal-user-project-card-item-bottom{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 95%;
+	margin: auto;
+}

@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,YAAY,CAAA;EACR,OAAO,EAAE,IAAI;CAChB;;AAED,AAAA,kBAAkB,CAAA;EACd,WAAW,EAAE,IAAI;CACpB",
-    "sources": [
-        "normaluser.scss"
-    ],
-    "names": [],
-    "file": "normaluser.css"
-}
+{"version":3,"sources":["normaluser.scss"],"names":[],"mappings":"AAAA;EACI,aAAA;AACJ;;AAEA;EACI,iBAAA;AACJ","file":"normaluser.css"}

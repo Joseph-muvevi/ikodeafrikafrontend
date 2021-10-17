@@ -1,0 +1,92 @@
+@import "../../../scss/variables/variables";
+@import "../../../scss/typography/typography";
+
+// ========STUDENT SIDE NAV==================
+.student-side-nav{
+	width: 18vw;
+	border-right: solid 2px #ccc;
+	position: fixed;
+	height: 100vh;
+}
+
+.student-side-nav-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: left;
+	text-align: left;
+	font-family: $default-font;
+	width: 100%;
+}
+
+.student-side-nav-top{
+	width: 15vw;
+	margin-top: 20px
+}
+
+.student-side-nav-logo{
+	max-width: 15vw;
+}
+
+.student-side-nav-middle{
+	margin: auto;
+	width: 16.5vw;
+	border-radius: $border-radius;
+	background-color: $secondary-background-color;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	height: 70px;
+}
+
+.student-side-nav-image{
+	width: 50px;
+	height: 50px;
+	border-radius: $border-radius;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+.student-side-nav-name{
+	font-size: $font-nav-items-size-big-screen;
+	text-transform: capitalize;
+}
+
+.student-side-nav-bottom{
+	width: 16.5vw;
+	margin: auto;
+}
+.studenmt-side-nav-middle-ul{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	text-align: left;
+	justify-content: space-around;
+}
+
+.student-side-nav-middle-li{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	height: 50px;
+	text-decoration: none;
+	color: black
+}
+
+.student-side-nav-middle-li:hover{
+	cursor: pointer;
+	background-color: $primary-color;
+	color: aliceblue;
+}
+
+.student-side-nav-fontawesome-icon{
+	border-radius: $border-radius;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+.student-side-nav-p{
+	text-transform: capitalize;
+}

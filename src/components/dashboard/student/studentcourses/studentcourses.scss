@@ -1,0 +1,90 @@
+@import "../../../scss/variables/variables";
+@import "../../../scss/typography/typography";
+
+// ===========STUDENT COURSES================
+.student-courses{
+	margin-left: 18vw;
+	width: 82vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.student-courses-content{
+	width: 76vw;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	text-align: justify;
+}
+
+.student-courses-h3{
+	margin-top: 20px;
+	font-size: $font-header-size-big-screen;
+	font-family: $default-font;
+	color: $primary-color;
+}
+
+.student-courses-p-and-filters{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 9vh;
+	font-family: $default-font;
+	font-size: $font-nav-header-size-medium-screen
+}
+
+.student-courses-ul{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.student-course-list{
+	list-style: none;
+}
+
+.student-course-card{
+	width: 280px;
+	height: 50vh;
+	border-radius: $border-radius;
+	box-shadow: 2px 5px 10px rgb(204, 204, 204);
+	font-family: $default-font;
+	color: $primary-color;
+	margin-bottom: 30px;
+}
+
+.student-courses-filter{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.student-course-card-image{
+	width: 280px;
+	height: 20vh;
+	border-top-left-radius: $border-radius;
+	border-top-right-radius: $border-radius;
+}
+
+.student-course-card-img{
+	border-top-left-radius: $border-radius;
+	border-top-right-radius: $border-radius;
+	width: 280px;
+	height: 20vh;
+}
+
+.student-course-card-header{
+	width: 95%;
+	margin: 10px auto;
+}
+
+.student-course-card-p{
+	width: 95%;
+	margin: 10px auto;
+}

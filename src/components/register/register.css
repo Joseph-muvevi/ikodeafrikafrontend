@@ -2,15 +2,9 @@
   height: 100vh;
   max-width: 100vw;
   min-width: 99.999vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   background-color: #a8cbff;
 }
 
@@ -21,34 +15,18 @@
   background-size: cover;
   height: 100%;
   width: 49vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .register-left-content {
   padding: 10px;
   color: whitesmoke;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   text-align: left;
   background-color: rgba(0, 0, 0, 0.459);
   font-family: Monda;
@@ -57,180 +35,89 @@
 
 .register-right {
   width: 50.79vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .register-form {
   width: 98%;
   margin: auto;
-  display: -ms-grid;
   display: grid;
-      grid-template-areas: "A A A A   A A B B   B B B B" "C C C C   C C D D   D D D D" "E E E E   E E F F   F F F F" "G G G G   G G H H   H H H H" "I I I I   I I J J   J J J J";
+  grid-template-areas: "A A A A   A A B B   B B B B" "C C C C   C C D D   D D D D" "E E E E   E E F F   F F F F" "G G G G   G G H H   H H H H" "I I I I   I I J J   J J J J";
 }
 
 .form-group-A {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 6;
   grid-area: A;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: left;
 }
 
 .form-group-B {
-  -ms-grid-row: 1;
-  -ms-grid-column: 7;
-  -ms-grid-column-span: 6;
   grid-area: B;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: left;
 }
 
 .form-group-C {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 6;
   grid-area: C;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: left;
 }
 
 .form-group-D {
-  -ms-grid-row: 2;
-  -ms-grid-column: 7;
-  -ms-grid-column-span: 6;
   grid-area: D;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: left;
 }
 
 .form-group-E {
-  -ms-grid-row: 5;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 6;
   grid-area: I;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: left;
 }
 
 .form-group-F {
-  -ms-grid-row: 3;
-  -ms-grid-column: 7;
-  -ms-grid-column-span: 6;
   grid-area: F;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: left;
 }
 
 .form-group-G {
-  -ms-grid-row: 4;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 6;
   grid-area: G;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: left;
 }
 
 .form-group-H {
-  -ms-grid-row: 4;
-  -ms-grid-column: 7;
-  -ms-grid-column-span: 6;
   grid-area: H;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: left;
 }
 
 .form-group-I {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 6;
   grid-area: E;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: left;
 }
 
 .form-group-J {
-  -ms-grid-row: 5;
-  -ms-grid-column: 7;
-  -ms-grid-column-span: 6;
   grid-area: J;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: left;
 }
 
 .form-small-input {
   width: 350px !important;
-}
-/*# sourceMappingURL=register.css.map */
+}/*# sourceMappingURL=register.css.map */

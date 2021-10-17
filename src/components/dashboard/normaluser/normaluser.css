@@ -1,10 +1,7 @@
 .normal-user {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .normal-user-right {
   margin-left: 18vw;
-}
-/*# sourceMappingURL=normaluser.css.map */
+}/*# sourceMappingURL=normaluser.css.map */

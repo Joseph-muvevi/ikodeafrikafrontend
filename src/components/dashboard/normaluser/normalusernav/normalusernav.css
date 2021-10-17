@@ -10,34 +10,19 @@
 
 .normal-user-side-nav-content {
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
   width: 18vw;
 }
 
 .normal-user-side-nav-content-top {
   width: 90%;
   margin-left: 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: left;
+  align-items: center;
   height: 10vh;
 }
 
@@ -61,17 +46,10 @@
 
 .normal-user-side-nav-content-middle-li {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: left;
+  align-items: center;
   height: 7.5vh;
   text-transform: uppercase;
   font-size: 18px;
-}
-/*# sourceMappingURL=normalusernav.css.map */
+}/*# sourceMappingURL=normalusernav.css.map */

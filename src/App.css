@@ -20,17 +20,12 @@ input {
   font-size: 16px;
 }
 
-input::-webkit-input-placeholder {
+input::-moz-placeholder {
   font-size: 16px;
   font-family: Monda;
 }
 
 input:-ms-input-placeholder {
-  font-size: 16px;
-  font-family: Monda;
-}
-
-input::-ms-input-placeholder {
   font-size: 16px;
   font-family: Monda;
 }
@@ -50,17 +45,12 @@ textarea {
   font-size: 16px;
 }
 
-textarea::-webkit-input-placeholder {
+textarea::-moz-placeholder {
   font-size: 16px;
   font-family: Monda;
 }
 
 textarea:-ms-input-placeholder {
-  font-size: 16px;
-  font-family: Monda;
-}
-
-textarea::-ms-input-placeholder {
   font-size: 16px;
   font-family: Monda;
 }
@@ -92,15 +82,9 @@ label {
 .form-bottom {
   margin-top: 30px;
   min-width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .font-awesome-button {
@@ -118,8 +102,8 @@ label {
   input {
     width: 80vw;
   }
+
   label {
     margin-left: 0px;
   }
-}
-/*# sourceMappingURL=App.css.map */
+}/*# sourceMappingURL=App.css.map */

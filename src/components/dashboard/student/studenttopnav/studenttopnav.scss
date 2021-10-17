@@ -1,0 +1,30 @@
+@import "../../../scss/variables/variables";
+@import "../../../scss/typography/typography";
+
+// ==========TOP NAV=============
+.student-top-nav{
+	width: 82vw;
+	margin-left: 18vw;
+	background-color: $secondary-background-color;
+	height: 7.5vh;
+}
+
+.student-top-nav-content{
+	width: 76vw;
+	margin: auto;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 25px;
+}
+
+.fontawesome-top-nav{
+	margin-right: 20px;
+}
+
+.img-top-nav{
+	width: 30px;
+	height: 30px;
+	border-radius: $border-radius;
+}

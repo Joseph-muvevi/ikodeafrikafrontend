@@ -1,1 +1,86 @@
-/* No CSS *//*# sourceMappingURL=studentcourses.css.map */
+.student-courses {
+  margin-left: 18vw;
+  width: 82vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.student-courses-content {
+  width: 76vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: justify;
+}
+
+.student-courses-h3 {
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: Monda;
+  color: #2C51D3;
+}
+
+.student-courses-p-and-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 9vh;
+  font-family: Monda;
+  font-size: 20px;
+}
+
+.student-courses-ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.student-course-list {
+  list-style: none;
+}
+
+.student-course-card {
+  width: 280px;
+  height: 50vh;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px #cccccc;
+  font-family: Monda;
+  color: #2C51D3;
+  margin-bottom: 30px;
+}
+
+.student-courses-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.student-course-card-image {
+  width: 280px;
+  height: 20vh;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.student-course-card-img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 280px;
+  height: 20vh;
+}
+
+.student-course-card-header {
+  width: 95%;
+  margin: 10px auto;
+}
+
+.student-course-card-p {
+  width: 95%;
+  margin: 10px auto;
+}/*# sourceMappingURL=studentcourses.css.map */

@@ -1,1 +1,117 @@
-/* No CSS *//*# sourceMappingURL=studenthome.css.map */
+.student-home {
+  margin-left: 18vw;
+  width: 82vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.student-home-h3 {
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: Monda;
+}
+
+.student-home-content {
+  width: 76vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: justify;
+}
+
+.student-home-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.student-home-card {
+  width: 283px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: #2C51D3;
+  box-shadow: 2px 5px 7px #cccccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.student-home-card-fontawesome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: inset -25px -25px 40px rgba(0, 0, 0, 0.5);
+}
+
+.student-home-card-h3 {
+  font-size: Monda;
+  font-size: 20px;
+}
+
+.student-two-cards {
+  width: 76vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.student-two-cards-left {
+  width: 63.4%;
+  background-color: green;
+  height: 45vh;
+  border-radius: 10px;
+  box-shadow: 2px 5px 7px #cccccc;
+}
+
+.student-two-cards-right {
+  width: 33.4%;
+  background-color: red;
+  height: 45vh;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .student-two-cards {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  }
+
+  .student-two-cards-left {
+    width: 100%;
+  }
+
+  .student-two-cards-left {
+    width: 100%;
+  }
+}
+.student-home-table {
+  margin-bottom: 30px;
+  width: 76vw;
+  margin: auto;
+}
+
+.student-home-table-content {
+  background-color: green;
+  border-radius: 10px;
+  box-shadow: 2px 5px 7px #cccccc;
+  height: 50vh;
+}/*# sourceMappingURL=studenthome.css.map */
