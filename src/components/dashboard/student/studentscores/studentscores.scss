@@ -1,0 +1,41 @@
+@import "../../../scss/variables/variables";
+@import "../../../scss/typography/typography";
+
+// ===========STUDENT COURSES================
+.student-courses{
+	margin-left: 18vw;
+	width: 82vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.student-courses-content{
+	width: 76vw;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	text-align: justify;
+}
+
+.student-courses-h3{
+	margin-top: 20px;
+	font-size: $font-header-size-big-screen;
+	font-family: $default-font;
+	color: $primary-color;
+}
+
+.student-scores-table{
+	width: 76vw;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 60vh;
+	border-radius: $border-radius;
+	box-shadow: 2px 5px 10px rgb(204, 204, 204);
+	font-family: $default-font;
+	margin-bottom: 30px;
+	padding: 10px;
+	background-color: white;
+}

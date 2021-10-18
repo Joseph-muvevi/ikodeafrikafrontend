@@ -1,1 +1,37 @@
-/* No CSS *//*# sourceMappingURL=studentscores.css.map */
+.student-courses {
+  margin-left: 18vw;
+  width: 82vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.student-courses-content {
+  width: 76vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: justify;
+}
+
+.student-courses-h3 {
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: Monda;
+  color: #2C51D3;
+}
+
+.student-scores-table {
+  width: 76vw;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 60vh;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px #cccccc;
+  font-family: Monda;
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: white;
+}/*# sourceMappingURL=studentscores.css.map */
