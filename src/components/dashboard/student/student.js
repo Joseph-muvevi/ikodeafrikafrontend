@@ -4,6 +4,7 @@ import StudentProject from './projects/project'
 import "./student.css"
 import StudentAssignments from './studentassignment/studentassignment'
 import StudentAssignmentDetail from './studentassignmentdetail/studentassignmentdetail'
+import StudentCourseDetails from './studentcoursedetails/studentcoursedetails'
 import StudentCourses from './studentcourses/studentcourses'
 import StudentHome from './studenthome/studenthome'
 import MyScores from './studentscores/studentscores'
@@ -23,6 +24,7 @@ const Student = () => {
 						<Route path="/my-courses" component={StudentCourses}/>
 						<Route path="/my-projects" component={StudentProject}/>
 						<Route path="/my-courses" component={StudentCourses}/>
+						<Route path="/my-courses-details" component={StudentCourseDetails}/>
 						<Route path="/my-task" component={StudentTasks}/>
 						<Route path="/my-assignment" component={StudentAssignments}/>
 						<Route path="/my-assignment-detail" component={StudentAssignmentDetail}/>

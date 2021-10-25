@@ -1,0 +1,136 @@
+.student-course-details {
+  display: flex;
+  justify-content: center;
+  margin-left: 18vw;
+  width: 80.95vw;
+}
+
+.student-course-details-content {
+  width: 95%;
+  margin: 30px auto;
+}
+
+.student-course-details-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.student-sourse-details-left {
+  width: 50vw;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 4px 7px #ccc;
+  min-height: 75vh;
+  text-align: justify;
+  margin-right: 20px;
+}
+
+.student-course-details-top-text {
+  width: 95%;
+  margin: 10px auto;
+  font-family: Monda;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.student-course-video {
+  width: 50vw;
+  height: 65vh;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.student-course-details-bottom {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.student-course-details-bottom-items {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.student-course-details-bottom-items-icons {
+  margin-right: 10px;
+}
+
+.student-course-details-right {
+  width: 410px;
+}
+
+.student-course-details-right-info {
+  width: 95%;
+  margin: auto;
+  font-family: Monda;
+}
+
+.student-course-details-enroll {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 4px 7pc #ccc;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.student-course-details-enroll-price {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.student-course-details-enroll-sub-text {
+  color: #2C51D3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.student-course-details-enroll-button-A {
+  margin-bottom: 10px;
+}
+
+.student-course-details-lec-card {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 4px 7pc #ccc;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.student-course-details-lec-card-top {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+}
+
+.student-course-details-lec-card-top-left-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.student-course-details-lec-card-middle {
+  text-align: left;
+  font-family: 14px;
+}
+
+.student-course-details-lec-card-middle-icons {
+  margin-right: 10px;
+}/*# sourceMappingURL=studentcoursedetails.css.map */

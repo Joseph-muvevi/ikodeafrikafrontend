@@ -1,4 +1,5 @@
 import React from 'react'
+import CreateProjectModal from '../../../interfaces/createprojectmodal'
 import ScoresTable from './scorestable'
 import "./studentscores.css"
 
@@ -15,6 +16,7 @@ const MyScores = () => {
 					</p>
 				</div>
 				<ScoresTable/>
+				<CreateProjectModal/>
 			</div>
 		</div>
 	)

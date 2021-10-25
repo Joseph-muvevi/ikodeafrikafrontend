@@ -4,7 +4,7 @@ import {NavLink} from "react-router-dom"
 import Logo from "../../../../assets/pnglogowords.png"
 import Person from "../../../../assets/person5.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAward, faChartPie, faGraduationCap, faLaptopCode, faSignOutAlt, faTasks } from '@fortawesome/free-solid-svg-icons'
+import { faAward, faChartPie, faGraduationCap, faLaptopCode, faSignOutAlt, faTasks, faUserGraduate } from '@fortawesome/free-solid-svg-icons'
 
 const StudentSidenav = () => {
 	return (
@@ -45,6 +45,15 @@ const StudentSidenav = () => {
 							/>
 							<p className ="student-side-nav-p">
 								courses
+							</p>
+						</NavLink>
+						<NavLink to="/my-courses-details" className="student-side-nav-middle-li-nested">
+							<FontAwesomeIcon
+								icon={faUserGraduate}
+								className="student-side-nav-fontawesome-icon"
+							/>
+							<p className ="student-side-nav-p">
+								courses/detail
 							</p>
 						</NavLink>
 						<NavLink to="/my-projects" className="student-side-nav-middle-li">

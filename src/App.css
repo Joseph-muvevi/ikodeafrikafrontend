@@ -12,7 +12,7 @@
 
 input {
   width: 400px;
-  padding: 10px;
+  padding: 5px 10px;
   font-family: Monda;
   border-radius: 10px;
   border-width: 1px;
@@ -37,7 +37,7 @@ input::placeholder {
 
 textarea {
   width: 400px;
-  padding: 10px;
+  padding: 5px 10px;
   font-family: Monda;
   border-radius: 10px;
   border-width: 1px;
@@ -79,6 +79,10 @@ label {
   margin-left: 5px;
 }
 
+.ellipsis-toggler {
+  cursor: pointer;
+}
+
 .form-bottom {
   margin-top: 30px;
   min-width: 50%;
@@ -100,7 +104,7 @@ label {
 
 @media screen and (max-width: 900px) {
   input {
-    width: 80vw;
+    width: 80.95vw;
   }
 
   label {

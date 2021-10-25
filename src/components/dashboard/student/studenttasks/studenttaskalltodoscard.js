@@ -1,9 +1,13 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEllipsisV } from '@fortawesome/free-solid-svg-icons'
 import "./studenttasks.css"
+import EditModal from '../../../interfaces/editmodal'
 
 const StudentAllTodosCard = ({user}) => {
+	const [editModal, setEditModal] = useState(false);
+	
+	
 	return (
 		<div className="student-task-card">
 			<div className="student-task-cards-top">
@@ -36,9 +40,11 @@ const StudentAllTodosCard = ({user}) => {
 					</p>
 				</div>
 				<FontAwesomeIcon
+					onClick={() => setEditModal(!editModal)}
 					icon={faEllipsisV}
-					className="student-tast-action-button"
+					className="ellipsis-toggler"
 					/>
+				{editModal && <EditModal editModal = {editModal} />}
 			</div>
 		</div>
 	)

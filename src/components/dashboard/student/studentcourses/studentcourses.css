@@ -1,13 +1,12 @@
 .student-courses {
   margin-left: 18vw;
-  width: 82vw;
+  width: 80.95vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .student-courses-content {
-  width: 76vw;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -38,20 +37,20 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: space-between;
+  justify-content: left;
 }
 
 .student-course-list {
   list-style: none;
+  margin: 10px;
 }
 
 .student-course-card {
-  width: 280px;
-  height: 50vh;
+  width: 385px;
+  min-height: 550px;
   border-radius: 10px;
   box-shadow: 2px 5px 10px #cccccc;
   font-family: Monda;
-  color: #2C51D3;
   margin-bottom: 30px;
   background-color: white;
 }
@@ -63,8 +62,6 @@
 }
 
 .student-course-card-image {
-  width: 280px;
-  height: 20vh;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -72,16 +69,48 @@
 .student-course-card-img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  width: 280px;
-  height: 20vh;
+  width: 385px;
+  height: 275px;
 }
 
-.student-course-card-header {
-  width: 95%;
-  margin: 10px auto;
+.student-course-card-texts {
+  width: 90%;
+  margin: auto;
 }
 
-.student-course-card-p {
-  width: 95%;
-  margin: 10px auto;
+.student-course-card-text-header {
+  font-size: 17px;
+  color: black;
+  font-weight: 700;
+  text-align: justify;
+}
+
+.student-course-card-text-icons {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: justify;
+  min-height: 50px;
+}
+
+.student-course-card-icons {
+  margin-right: 5px;
+}
+
+.student-course-card-icon-group {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: justify;
+  margin: 5px 10px 5px 0px;
+  color: #686868;
+  font-size: 14px;
+}
+
+.student-course-card-text-details {
+  font-size: 14px;
+}
+
+.student-course-card-call-to-action {
+  margin-top: 50px;
 }/*# sourceMappingURL=studentcourses.css.map */

@@ -3,6 +3,7 @@ $primary-color: #2C51D3 !default;
 $secondary-color: #071443 !default;
 $success-color: rgb(0, 218, 0) !default;
 $error-color: #ff2424 !default;
+$error-hover-color: #fc0000 !default;
 $background-color: #e6eeff;
 $secondary-background-color: #a8cbff;
 
@@ -23,13 +24,13 @@ $card-home-width: 300px;
 $input-long-width: 600px;
 $input-medium-width: 400px; 
 $input-double-width: 350px; 
-$input-small-width: 80vw;
+$input-small-width: 80.95vw;
 
 // text area
 $textarea-long-width: 600px;
 $textarea-medium-width: 400px; 
 $textarea-double-width: 350px; 
-$textarea-small-width: 80vw;
+$textarea-small-width: 80.95vw;
 
 // button width
 $button-big-screen: 200px;

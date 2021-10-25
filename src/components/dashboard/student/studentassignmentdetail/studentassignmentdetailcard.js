@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendarAlt, faEllipsisV } from '@fortawesome/free-solid-svg-icons'
 
 const StudentAssignmentDetailCard = () => {
+
 	return (
 		<div className="student-assignment-detail-card">
 			<div className="student-assignment-detail-card-content">
@@ -21,6 +22,7 @@ const StudentAssignmentDetailCard = () => {
 						icon={faEllipsisV}
 						className="font-awesome-ellipsis-v"
 						/>
+						
 				</div>
 				<div className="student-assignment-detail-card-header">
 					<h4 className="student-assignment-detail-card-header-h4">
