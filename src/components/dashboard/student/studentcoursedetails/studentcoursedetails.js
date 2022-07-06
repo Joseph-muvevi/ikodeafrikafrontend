@@ -1,4 +1,7 @@
 import React from 'react'
+import FacultyCardList from './facultycardlist'
+import StudentCourseCurriculum from './studentcoursecurriculum'
+import StudentCourseDescription from './studentcoursedescription'
 import StudentCourseDetailsTop from './studentcousedetailsbcard'
 
 const StudentCourseDetails = () => {
@@ -6,15 +9,9 @@ const StudentCourseDetails = () => {
 		<div className="student-course-details">
 			<div className="student-course-details-content">
 				<StudentCourseDetailsTop/>
-				<div className="student-course-details-description">
-					description
-				</div>
-				<div className="student-course-details-curriculum">
-					curriculum
-				</div>
-				<div className="student-course-details-faculty">
-					faculty cards list
-				</div>
+				<StudentCourseDescription/>
+				<StudentCourseCurriculum/>
+				<FacultyCardList/>
 				<div className="student-course-details-reviews">
 					Reviews card
 				</div>

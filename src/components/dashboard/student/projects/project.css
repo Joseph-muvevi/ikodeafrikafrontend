@@ -94,13 +94,12 @@
 }
 
 .student-project-card {
-  width: 280px;
-  height: 50vh;
+  width: 385px;
+  min-height: 550px;
   border-radius: 10px;
   box-shadow: 2px 5px 10px #cccccc;
   font-family: Monda;
   margin-bottom: 30px;
-  padding: 10px;
   background-color: white;
 }
 

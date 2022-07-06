@@ -3,8 +3,9 @@ import "./studentcoursedetails.css"
 import image from "../../../../assets/person5.jpg"
 import person from "../../../../assets/person4.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCalendarAlt, faClock, faEnvelope, faGlobeAfrica, faHeart, faLanguage, faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
+import { faCalendarAlt, faClock, faEnvelope, faHeart, faLanguage, faLink, faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import SocialMediaButtons from '../../../interfaces/socialmediabuttons'
 
 const StudentCourseDetailsTop = () => {
 	return (
@@ -101,7 +102,7 @@ const StudentCourseDetailsTop = () => {
 								<FontAwesomeIcon 
 									className="student-course-details-lec-card-middle-icons"
 									icon={faPhoneAlt}/>
-								+254 700 000 000
+									+254 700 000 000
 							</div>
 							<div className="student-course-details-lec-card-middle-items">
 								<FontAwesomeIcon 
@@ -112,13 +113,11 @@ const StudentCourseDetailsTop = () => {
 							<div className="student-course-details-lec-card-middle-items">
 								<FontAwesomeIcon 
 									className="student-course-details-lec-card-middle-icons"
-									icon={faGlobeAfrica}/>
+									icon={faLink}/>
 								mytutorswebsite.com
 							</div>
 						</div>
-						<div className="student-course-details-lec-card-bottom">
-							socials
-						</div>
+						<SocialMediaButtons/>
 					</div>
 				</div>
 			</div>

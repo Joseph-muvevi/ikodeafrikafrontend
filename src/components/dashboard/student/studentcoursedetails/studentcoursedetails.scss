@@ -138,8 +138,150 @@
 .student-course-details-lec-card-middle{
 	text-align: left;
 	font-family: 14px;
+	margin-top: 20px;
 }
 
 .student-course-details-lec-card-middle-icons{
 	margin-right: 10px;
+	padding: 5px;
+	background-color: $primary-color;
+	font-size: 25px;
+	color: white;
+	border-radius: $border-radius;
+}
+
+.student-course-details-lec-card-bottom{
+	text-align: left;
+	margin-top: 20px;
+}
+
+.student-course-details-lec-card-bottom-icon{
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+// ===student course description========
+.student-course-description{
+	width: 50vw;
+	border-radius: $border-radius;
+	background-color: white;
+	box-shadow: 2px 4px 7px #ccc;
+	min-height: 75vh;
+	text-align: justify;
+	margin-right: 20px;
+	margin-top: 50px;
+}
+
+.student-course-description-content{
+	width: 95%;
+	padding-top: 50px;
+	margin: auto;
+	font-family: $default-font;
+}
+
+
+.student-course-description-p{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+.student-course-description-ul{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: justify;
+	margin-left: 20px;
+}
+
+.student-course-description-li{
+	color: $font-alt;
+}
+
+// ========STUDENT COURSE CURRICULLUM===============
+.student-course-curriculum{
+	width: 50vw;
+	border-radius: $border-radius;
+	background-color: white;
+	box-shadow: 2px 4px 7px #ccc;
+	min-height: 75vh;
+	text-align: justify;
+	margin-right: 20px;
+	margin-top: 50px;
+}
+
+.student-course-curriculum-content{
+	width: 95%;
+	padding-top: 50px;
+	margin: auto;
+	font-family: $default-font;
+	text-align: left;
+}
+
+.student-course-curriculum-h3{
+	margin: 10px auto;
+}
+
+// ==========STUDENT COURSE MODULES===============
+.student-course-modules{
+	margin: 20px auto;
+}
+
+.student-course-module-header{
+	color: $primary-color
+}
+
+.student-course-module-li{
+	display: flex;
+	text-align: left;
+	justify-content: left;
+	text-align: left;
+	margin: 10px;
+	color: $font-alt
+}
+
+.student-course-module-li-p{
+	margin-left: 10px;
+}
+
+// =======FACULTY CARD LIST===========
+.faculty-card-list{
+	width: 50vw;
+	border-radius: $border-radius;
+	background-color: white;
+	box-shadow: 2px 4px 7px #ccc;
+	min-height: 30vh;
+	text-align: justify;
+	margin-top: 50px;
+}
+
+.faculty-card-list-content{
+	width: 95%;
+	padding-top: 30px;
+	margin:10px auto;
+	font-family: $default-font;
+	text-align: left;
+}
+
+.faculty-card-list-top-img{
+	width: 70px;
+	height: 70px;
+	border-radius: $border-radius;
+}
+
+.faculty-card-list-top{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	text-align: left;
+}
+
+.faculty-card-list-top-right{
+	margin-left: 20px;
+}
+
+.faculty-card-list-center{
+	margin: 20px 0px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
 }

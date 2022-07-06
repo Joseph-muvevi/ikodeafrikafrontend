@@ -86,6 +86,13 @@ label{
 	font-family: $default-font;
 }
 
+.hr-thin{
+	border: none;
+    height: 1px;
+    color: $alt-color;
+    background-color: $alt-color;
+}
+
 @media screen and (max-width: 900px){
 	input{
 		width: $input-small-width;

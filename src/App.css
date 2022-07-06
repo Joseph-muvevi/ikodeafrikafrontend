@@ -102,6 +102,13 @@ label {
   font-family: Monda;
 }
 
+.hr-thin {
+  border: none;
+  height: 1px;
+  color: #686868;
+  background-color: #686868;
+}
+
 @media screen and (max-width: 900px) {
   input {
     width: 80.95vw;

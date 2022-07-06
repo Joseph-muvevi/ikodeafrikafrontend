@@ -98,3 +98,21 @@
 	border-radius: $border-radius;
 
 }
+
+// =========SOCIAL MEDIA BITTONS=========
+
+.social-media-buttons{
+	text-align: left;
+	margin-top: 20px;
+	min-width: 250px;
+}
+
+.social-media-buttons-icon{
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+.social-media-buttons-icon:hover{
+	cursor: pointer;
+	font-size: 22;
+}
